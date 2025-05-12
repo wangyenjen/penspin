@@ -13,7 +13,7 @@ conda create -y -n penspin python=3.8
 conda activate penspin
 conda install -c conda-forge urllib3
 conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvidia
-pip install -r  gdown hydra-core termcolor gym tensorboardX trimesh numpy==1.22.4 wandb
+pip install gdown hydra-core termcolor gym tensorboardX trimesh numpy==1.22.4 wandb
 ```
 
 ## PenSpin
